@@ -16,4 +16,9 @@ Merupakan framework logging yang digunakan seperti API (Driver atau Abstract, mi
 Hanya perlu memilih library yang akan digunakan, secara otomatis SLF4J akan menggunakan implementasi library tersebut. <br>
 Pada materi ini, akan menggunakan library Logback.
 
+## Logger
+adalah class utama untuk melakukan logging. <br>
+Nama logger biasanya menggunakan nama class lokasi Logger tersebut. <br>
+Untuk membuat Logger, tidak perlu membuat object, cukup menggunakan factory class LoggerFactory
+
 ## Learning
