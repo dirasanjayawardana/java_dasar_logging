@@ -22,3 +22,6 @@ Nama logger biasanya menggunakan nama class lokasi Logger tersebut. <br>
 Untuk membuat Logger, tidak perlu membuat object, cukup menggunakan factory class LoggerFactory
 
 ## Learning
+- test/MainTest.java
+- test/LevelTest.java
+- test/LogFormatTest.java
