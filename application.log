@@ -3,3 +3,33 @@
 2024-08-10 13:36:13.965 [main] WARN  java_dasar_logging.LevelTest - [] - Warning
 2024-08-10 13:36:13.968 [main] ERROR java_dasar_logging.LevelTest - [] - Error
 2024-08-10 13:47:30.708 [main] ERROR j.contoh.ContohTest - [] - Contoh
+2024-08-10 20:55:09.311 [Thread-9] INFO  d.java_dasar_logging.MyController - [7d470e60-765c-494b-9258-8de8ed5828c0] - Controller Save
+2024-08-10 20:55:09.311 [Thread-5] INFO  d.java_dasar_logging.MyController - [155f9429-1572-40ce-9596-8bb1ea81b4dc] - Controller Save
+2024-08-10 20:55:09.311 [Thread-4] INFO  d.java_dasar_logging.MyController - [1eaaedb2-1782-40a2-91b5-d7416a15d636] - Controller Save
+2024-08-10 20:55:09.311 [Thread-2] INFO  d.java_dasar_logging.MyController - [9355699b-6df7-4792-b947-a9aef8e99e42] - Controller Save
+2024-08-10 20:55:09.311 [Thread-6] INFO  d.java_dasar_logging.MyController - [3d3cb566-77a9-42fd-8c83-a4cb3abcddb1] - Controller Save
+2024-08-10 20:55:09.313 [Thread-4] INFO  dirapp.java_dasar_logging.MyService - [1eaaedb2-1782-40a2-91b5-d7416a15d636] - Service Save
+2024-08-10 20:55:09.311 [Thread-1] INFO  d.java_dasar_logging.MyController - [d00b8277-7473-4fa8-8a3e-765fe37c7566] - Controller Save
+2024-08-10 20:55:09.313 [Thread-2] INFO  dirapp.java_dasar_logging.MyService - [9355699b-6df7-4792-b947-a9aef8e99e42] - Service Save
+2024-08-10 20:55:09.313 [Thread-6] INFO  dirapp.java_dasar_logging.MyService - [3d3cb566-77a9-42fd-8c83-a4cb3abcddb1] - Service Save
+2024-08-10 20:55:09.311 [Thread-0] INFO  d.java_dasar_logging.MyController - [8ce85c73-4fb2-43b1-8e2e-a94e2c5b882c] - Controller Save
+2024-08-10 20:55:09.311 [Thread-3] INFO  d.java_dasar_logging.MyController - [6d6ac5af-95aa-4ea6-9aa4-1207ff60a1d6] - Controller Save
+2024-08-10 20:55:09.311 [Thread-7] INFO  d.java_dasar_logging.MyController - [ecac18fb-974b-448f-a394-3cee72714102] - Controller Save
+2024-08-10 20:55:09.313 [Thread-2] INFO  d.java_dasar_logging.MyRepository - [9355699b-6df7-4792-b947-a9aef8e99e42] - Repository Save
+2024-08-10 20:55:09.311 [Thread-8] INFO  d.java_dasar_logging.MyController - [94641642-0857-4d53-8b68-5d93084d7de1] - Controller Save
+2024-08-10 20:55:09.313 [Thread-6] INFO  d.java_dasar_logging.MyRepository - [3d3cb566-77a9-42fd-8c83-a4cb3abcddb1] - Repository Save
+2024-08-10 20:55:09.313 [Thread-3] INFO  dirapp.java_dasar_logging.MyService - [6d6ac5af-95aa-4ea6-9aa4-1207ff60a1d6] - Service Save
+2024-08-10 20:55:09.313 [Thread-8] INFO  dirapp.java_dasar_logging.MyService - [94641642-0857-4d53-8b68-5d93084d7de1] - Service Save
+2024-08-10 20:55:09.313 [Thread-3] INFO  d.java_dasar_logging.MyRepository - [6d6ac5af-95aa-4ea6-9aa4-1207ff60a1d6] - Repository Save
+2024-08-10 20:55:09.313 [Thread-9] INFO  dirapp.java_dasar_logging.MyService - [7d470e60-765c-494b-9258-8de8ed5828c0] - Service Save
+2024-08-10 20:55:09.313 [Thread-8] INFO  d.java_dasar_logging.MyRepository - [94641642-0857-4d53-8b68-5d93084d7de1] - Repository Save
+2024-08-10 20:55:09.313 [Thread-5] INFO  dirapp.java_dasar_logging.MyService - [155f9429-1572-40ce-9596-8bb1ea81b4dc] - Service Save
+2024-08-10 20:55:09.313 [Thread-9] INFO  d.java_dasar_logging.MyRepository - [7d470e60-765c-494b-9258-8de8ed5828c0] - Repository Save
+2024-08-10 20:55:09.313 [Thread-4] INFO  d.java_dasar_logging.MyRepository - [1eaaedb2-1782-40a2-91b5-d7416a15d636] - Repository Save
+2024-08-10 20:55:09.313 [Thread-5] INFO  d.java_dasar_logging.MyRepository - [155f9429-1572-40ce-9596-8bb1ea81b4dc] - Repository Save
+2024-08-10 20:55:09.313 [Thread-1] INFO  dirapp.java_dasar_logging.MyService - [d00b8277-7473-4fa8-8a3e-765fe37c7566] - Service Save
+2024-08-10 20:55:09.313 [Thread-0] INFO  dirapp.java_dasar_logging.MyService - [8ce85c73-4fb2-43b1-8e2e-a94e2c5b882c] - Service Save
+2024-08-10 20:55:09.313 [Thread-7] INFO  dirapp.java_dasar_logging.MyService - [ecac18fb-974b-448f-a394-3cee72714102] - Service Save
+2024-08-10 20:55:09.314 [Thread-1] INFO  d.java_dasar_logging.MyRepository - [d00b8277-7473-4fa8-8a3e-765fe37c7566] - Repository Save
+2024-08-10 20:55:09.314 [Thread-0] INFO  d.java_dasar_logging.MyRepository - [8ce85c73-4fb2-43b1-8e2e-a94e2c5b882c] - Repository Save
+2024-08-10 20:55:09.314 [Thread-7] INFO  d.java_dasar_logging.MyRepository - [ecac18fb-974b-448f-a394-3cee72714102] - Repository Save

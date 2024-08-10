@@ -35,8 +35,8 @@
     </encoder>
   </appender>
 
-  <!-- konfigurasi log agar ditampilkan hanya pada level warn keatas -->
-  <root level="warn">
+  <!-- konfigurasi log agar ditampilkan hanya pada level info keatas -->
+  <root level="info">
     <!-- appender akan meneruskan log event ke output yang diinginkan, seperti console, file.log, dll -->
     <appender-ref ref="CONSOLE"/>
     <appender-ref ref="FILE"/>
@@ -50,3 +50,7 @@
 <!-- SMTPAppender (mengirim log via email, akan menjadi lambat) -->
 <!-- SockerAppender (mengirim log ke server via socket) -->
 <!-- SyslogAppender -->
+
+<!-- Layout adalah komponen dalam logback untuk melakukan transformasi dari LogEvent menjadi String -->
+<!-- secara default menggunakan PatternLayout -->
+<!-- untuk format conversion word nya bisa di lihat di : http://logback.qos.ch/manual/layouts.html#conversionWord -->
