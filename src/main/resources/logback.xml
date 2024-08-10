@@ -1,0 +1,45 @@
+<!-- ketika menggunakan SLF4F dengan library Logback, secara default hanya menampilkan log dengan level debug keatas -->
+<!-- file logback.xml untuk melakukan konfigurasi output dari log -->
+
+
+<configuration>
+
+  <!-- custom logger untuk package contoh, setiap file yang berada di package contoh, logger levelnya akan otomatis diganti menjadi trace -->
+  <logger name="contoh" level="trace"/>
+
+  <!-- appender untuk menamampilkan log di console atau System.out -->
+  <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - [%X{requestId}] - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <!-- appender menyimpan log ke dalam file application.log -->
+  <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>application.log</file>
+
+    <!-- membuat file.log baru berdasarkan waktu tertentu atau sudah mencapai ukuran maksimalnya -->
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <!-- buat file.log baru perhari -->
+      <fileNamePattern>application-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+      <!-- buat file.baru ketika sudah mencapai maksimal 100MB -->
+      <maxFileSize>100MB</maxFileSize>
+      <!-- hanya menyimpan maksimal 60 file, jika sudah mencapai maksimal, maka file.log lama akan dihapus -->
+      <maxHistory>60</maxHistory>
+      <!-- maksimal total file.log keseluruhan adalah 20GB, jika sudah mencapai maksimal, maka file.log lama akan dihapus -->
+      <totalSizeCap>20GB</totalSizeCap>
+    </rollingPolicy>
+
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - [%X{requestId}] - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <!-- konfigurasi log agar ditampilkan hanya pada level warn keatas -->
+  <root level="warn">
+    <!-- appender akan meneruskan log event ke output yang diinginkan, seperti console, file.log, dll -->
+    <appender-ref ref="CONSOLE"/>
+    <appender-ref ref="FILE"/>
+  </root>
+
+</configuration>

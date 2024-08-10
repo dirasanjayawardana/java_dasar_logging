@@ -25,3 +25,5 @@ Untuk membuat Logger, tidak perlu membuat object, cukup menggunakan factory clas
 - test/MainTest.java
 - test/LevelTest.java
 - test/LogFormatTest.java
+- resources/logback.xml
+- test/contoh/ContohTest.java

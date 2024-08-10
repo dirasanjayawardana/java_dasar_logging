@@ -1,0 +1,5 @@
+2024-08-10 13:36:07.737 [main] WARN  java_dasar_logging.LevelTest - [] - Warning
+2024-08-10 13:36:07.738 [main] ERROR java_dasar_logging.LevelTest - [] - Error
+2024-08-10 13:36:13.965 [main] WARN  java_dasar_logging.LevelTest - [] - Warning
+2024-08-10 13:36:13.968 [main] ERROR java_dasar_logging.LevelTest - [] - Error
+2024-08-10 13:47:30.708 [main] ERROR j.contoh.ContohTest - [] - Contoh
