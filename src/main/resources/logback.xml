@@ -43,3 +43,10 @@
   </root>
 
 </configuration>
+
+<!-- macam-macam appender lainnya -->
+<!-- DBAppender (menyimpan log dalam database) -->
+<!-- OutputStreamAppender -->
+<!-- SMTPAppender (mengirim log via email, akan menjadi lambat) -->
+<!-- SockerAppender (mengirim log ke server via socket) -->
+<!-- SyslogAppender -->
