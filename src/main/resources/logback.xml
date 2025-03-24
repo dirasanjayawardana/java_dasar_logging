@@ -12,6 +12,10 @@
     <encoder>
       <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - [%X{requestId}] - %msg%n</pattern>
     </encoder>
+    <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+      <!-- hanya menampilkan log dengan level info keatas khusus untuk appender ini -->
+       <level>INFO</level>
+    </filter>
   </appender>
 
   <!-- appender menyimpan log ke dalam file application.log -->
